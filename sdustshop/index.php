@@ -31,11 +31,7 @@ $(document).ready(function(){
 	$("#msg_gw").click(function(){
         alert("请耐心等待一下，我们正在拼命开发中···");
 	});
-    $("#msg_qd").click(function(){
-        alert("请耐心等待一下，我们正在拼命开发中···");
-    });
-    
-    
+      
 });
 </script>
 <script src="http://ku.zzfriend.com/js/ie.js"></script>
@@ -52,7 +48,7 @@ $(document).ready(function(){
         <div class="m_nav">
         	
             <a href="javascript:void(0);" id="msg_gw"><img src="images/m-index_16.png"><span>购物资讯</span></a>
-            <a href="javascript:void(0);" id="msg_qd"><img src="images/m-index_24.png"><span>签到赢流量</span></a>
+            <a href="admin/views/wangEditor.php" id="msg_qd"><img src="images/m-index_24.png"><span>发布商品</span></a>
             <a href="http://v.ecfun.cc" id="msg_dd"><img src="images/m-index_26.png"><span>科学上网</span></a>
             <a href="user.php?page=1" id="msg_hy"><img src="images/m-index_27.png"><span>个人中心</span></a>
         </div>
